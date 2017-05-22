@@ -83,17 +83,28 @@ body {
 }
 
 .btn {
-  color: #a38b70;
+  box-sizing: border-box;
+  width: 170px;
+  padding: 13px 38px;
+  border: 2px solid white;
+  border-radius: 2px;
+    
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 }
 
-.btn:hover {
-  color: #8d745a;
+.btn-ghost {
+  color: #fff;  
 }
 
-.btn:active {
-  color: rgba(141, 116, 90, 0.3);
+.btn-ghost:hover{
+  color: #404040;
+  background-color: white;
+}
+
+.btn-ghost:active {
+  color: rgba(64, 64, 64, 0.3);
 }
 
 .btn-quick-order {
