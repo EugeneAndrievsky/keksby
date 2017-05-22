@@ -183,6 +183,17 @@ body {
   background-color: #f2f2f2;
 }
 
+.cat-reference h2 {
+  float: left;
+  margin: 0;
+  
+}
+
+.cat-reference .btn {
+  float: right;
+ 
+}
+
 .section-title {
   font-weight: bold;
   font-size: 45px;
