@@ -85,7 +85,7 @@ body {
 .btn {
   box-sizing: border-box;
   width: 170px;
-  padding: 13px 38px;
+  padding: 13px 0;
   border: 2px solid white;
   border-radius: 2px;
     
@@ -105,6 +105,22 @@ body {
 
 .btn-ghost:active {
   color: rgba(64, 64, 64, 0.3);
+}
+
+.btn-brown-ghost {
+  color: #a38b70;  
+  border: 2px #a38b70 solid;
+}
+
+.btn-brown-ghost:hover{
+  color: rgba(141, 116, 90, 1);
+  background-color: white;
+  
+}
+
+.btn-brown-ghost:active {
+  color: rgba(141, 116, 90, 0.3);
+  
 }
 
 .btn-quick-order {
@@ -185,13 +201,15 @@ body {
 
 .cat-reference h2 {
   float: left;
-  margin: 0;
+  margin: 0;  
   
 }
 
 .cat-reference .btn {
-  float: right;
- 
+  position: relative;
+  top: 5px;
+  
+  
 }
 
 .section-title {
