@@ -244,10 +244,7 @@ body {
   margin-left: 130px;
 }
 
-.reviews {
-  padding-top: 70px;
-  padding-bottom: 90px;
-}
+
 
 .reference-title {
   display: inline-block;
@@ -273,17 +270,31 @@ body {
   color: rgba(141, 116, 90, 0.3);
 }
 
+.reviews {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.reviews-list {
+  margin-top: 60px;
+}
+
 .review-item {
   float: left;
-  width: 377px;
+  width: 370px;
   margin: 0;
-  margin-right: 80px;
+  margin-right: 87px;
   padding: 0;
   padding-left: 50px;
 
   font-size: 16px;
 
   border-left: 3px solid #a38b70;
+}
+
+.review-item p{
+  margin-top: 0;
+  margin-bottom:  20px;
 }
 
 .review-author {
