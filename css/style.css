@@ -236,7 +236,12 @@ body {
 }
 
 .cat-reference dd img {
+  float: left;
   border-radius: 5px;
+}
+
+.cat-reference dd p {
+  margin-left: 130px;
 }
 
 .reviews {
