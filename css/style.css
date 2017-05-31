@@ -491,7 +491,21 @@ body {
 }
 
 .checkbox-area {
+  position: relative;
   border-bottom: 1px solid #d5d5d5;
+  padding: 20px 55px;  
+}
+
+.checkbox-area::before {
+  content: "O";
+  position: absolute;
+  
+  left: 30px;
+  
+}
+
+.feedback-form input[type="checkbox"] {
+  display: none;
 }
 
 .page-footer {
