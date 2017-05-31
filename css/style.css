@@ -494,9 +494,10 @@ body {
   display: none;
 }
 
-.checkbox-area {  
+.checkbox-area {    
+  padding-top: 20px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #d5d5d5;
-  padding: 20px 0;  
 }
 
 .checkbox-label {
@@ -518,6 +519,13 @@ body {
   border: 2px solid #d5d5d5;
   border-radius: 2px;  
 }
+.checkbox-indicator:hover {
+  border-color: #b3b3b3;
+}
+
+.checkbox-indicator:active {
+  border-color: #8d754a;
+}
 
 .feedback-form input[type="checkbox"]:checked + .checkbox-indicator::before {
   content: "";
@@ -529,7 +537,7 @@ body {
   width: 6px;
   height: 14px;
   
-  border: 2px solid brown;  
+  border: 2px solid #8d745a;  
   border-radius: 2px;
   border-top: none;
   border-left: none;
