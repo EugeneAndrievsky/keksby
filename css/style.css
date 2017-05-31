@@ -431,11 +431,26 @@ body {
 }
 
 .feedback-form {
+  position: relative;
   width: 630px;
   padding-right: 390px;
   margin-top: 60px;
 
-  background: url("../img/write.jpg") no-repeat 100% 40px;
+  /*background: url("../img/write.jpg") no-repeat 100% 40px;*/
+}
+
+.feedback-form::before {
+  content: "";
+  position: absolute;
+  
+  width: 340px;
+  height: 530px;
+  
+  top: 35px;
+  right: 0px;
+  
+  border-radius: 5px;  
+  background: url("../img/write.jpg") no-repeat center;
 }
 
 .feedback-form-group {
