@@ -490,22 +490,51 @@ body {
   border-color: #8d745a;
 }
 
-.checkbox-area {
-  position: relative;
-  border-bottom: 1px solid #d5d5d5;
-  padding: 20px 55px;  
-}
-
-.checkbox-area::before {
-  content: "O";
-  position: absolute;
-  
-  left: 30px;
-  
-}
-
 .feedback-form input[type="checkbox"] {
   display: none;
+}
+
+.checkbox-area {  
+  border-bottom: 1px solid #d5d5d5;
+  padding: 20px 0;  
+}
+
+.checkbox-label {
+  position: relative;
+  padding-left: 55px;
+  cursor: pointer;
+}
+
+.checkbox-indicator{
+  content: "";
+  position: absolute;
+  
+  width: 26px;
+  height: 26px;  
+  
+  left: 18px;
+  top: -4px;
+  
+  border: 2px solid #d5d5d5;
+  border-radius: 2px;  
+}
+
+.feedback-form input[type="checkbox"]:checked + .checkbox-indicator::before {
+  content: "";
+  position: absolute;
+  
+  left: 9px;
+  top:  3px;
+  
+  width: 6px;
+  height: 14px;
+  
+  border: 2px solid brown;  
+  border-radius: 2px;
+  border-top: none;
+  border-left: none;
+  
+  transform: rotate(45deg);
 }
 
 .page-footer {
