@@ -424,12 +424,16 @@ body {
 }
 
 .feedback-tip {
-  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  font-size: 16px; 
 }
 
 .feedback-form {
   width: 630px;
   padding-right: 390px;
+  margin-top: 60px;
 
   background: url("../img/write.jpg") no-repeat 100% 40px;
 }
@@ -439,7 +443,9 @@ body {
 }
 
 .feedback-form-group label {
+  
   font-size: 12px;
+  line-height: 1em;
   text-transform: uppercase;
 }
 
@@ -449,7 +455,13 @@ body {
   font: inherit;
   color: inherit;
 
+  margin-top: 8px;
   border: 2px solid #d5d5d5;
+  height: 48px;
+}
+
+.feedback-form #fullname {
+  width: 100%;
 }
 
 .feedback-form input[type="text"]:hover,
