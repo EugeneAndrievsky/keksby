@@ -550,10 +550,26 @@ body {
   width: 100%;
   margin-bottom: 7px;
 }
+
 .feedback-form textarea{
-  width: 626px;
+  box-sizing: border-box;
+  width: 630px;
+  min-height: 120px;
+  
   padding: 0;
+  padding-top: 25px;
   margin-top: 15px;  
+}
+
+.feedback-form input[type="submit"]{
+  box-sizing: border-box;
+  width: 170px;
+  height: 50px;
+  border: none;
+  
+  font-size: inherit;
+  line-height: inherit;
+  
 }
 
 .page-footer {
