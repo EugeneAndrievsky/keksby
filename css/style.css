@@ -497,6 +497,7 @@ body {
 .checkbox-area {    
   padding-top: 20px;
   padding-bottom: 30px;
+  margin-bottom: 27px;
   border-bottom: 1px solid #d5d5d5;
 }
 
@@ -543,6 +544,16 @@ body {
   border-left: none;
   
   transform: rotate(45deg);
+}
+
+.feedback-form  select {
+  width: 100%;
+  margin-bottom: 7px;
+}
+.feedback-form textarea{
+  width: 626px;
+  padding: 0;
+  margin-top: 15px;  
 }
 
 .page-footer {
