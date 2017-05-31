@@ -439,11 +439,21 @@ body {
 }
 
 .feedback-form-group {
-  padding: 10px 0;
+  padding-bottom: 10px;
 }
 
-.feedback-form-group label {
-  
+.f-f-group-1 {
+  float: left;
+  margin-right: 50px;
+  width: 290px;
+}
+
+.f-f-group-2 {
+  float: right;
+  width: 290px;
+}
+
+.feedback-form-group label {  
   font-size: 12px;
   line-height: 1em;
   text-transform: uppercase;
@@ -461,7 +471,11 @@ body {
 }
 
 .feedback-form #fullname {
-  width: 100%;
+  width: 626px;
+}
+
+.feedback-form #phone, #email {
+  width: 286px;
 }
 
 .feedback-form input[type="text"]:hover,
