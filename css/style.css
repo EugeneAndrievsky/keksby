@@ -682,17 +682,29 @@ body {
   height: 60px;
   
   margin-right: 10px;  
+  border: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 0;
 }
 
-.social-btn-vk {
-  
+.social-btn:hover {
+  border-color: rgba(255, 255, 255, 0.3);
 }
+
+.social-btn:active {
+  border-color: white;
+  opacity: 0.3;
+}
+
+.social-btn-vk{
+  background: url("../img/vk.png") no-repeat center;  
+}
+
 .social-btn-fb {
-  
+  background: url("../img/facebook.svg") no-repeat center;  
 }
+
 .social-btn-in {
-  
+  background: url("../img/instagram.png") no-repeat center;
 }
 
 .footer-copyright {
