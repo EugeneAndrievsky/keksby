@@ -588,8 +588,7 @@ body {
   border: none;
   
   font-size: inherit;
-  line-height: inherit;
-  
+  line-height: inherit;  
 }
 
 .page-footer {
@@ -608,7 +607,7 @@ body {
 }
 
 .footer-middle {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   padding-top: 50px;
 }
 
@@ -624,6 +623,8 @@ body {
 }
 
 .footer-menu h3 {
+  margin: 0;
+  margin-bottom: 5px;
   font-weight: bold;
   font-size: 24px;
   font-family: "Georgia", serif;
@@ -631,7 +632,14 @@ body {
 }
 
 .footer-menu ul {
+  margin: 0;
+  padding-left: 0;
   list-style: none;
+}
+
+.footer-menu li {
+  padding-top: 25px;
+  line-height: 16px;
 }
 
 .footer-menu a {
