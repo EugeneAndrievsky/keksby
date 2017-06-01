@@ -715,6 +715,18 @@ body {
   text-transform: uppercase;
 }
 
+.footer-copyright .heart {
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  
+  width: 27px;
+  height: 24px;
+  
+  font-size: 0;
+  background: url("../img/heart.png"); 
+}
+
 .footer-copyright a {
   color: #ffffff;
   text-decoration: none;
