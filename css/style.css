@@ -469,6 +469,7 @@ body {
 }
 
 .feedback-form-group label {  
+  padding-left: 20px;
   font-size: 12px;
   line-height: 1em;
   text-transform: uppercase;
@@ -481,6 +482,7 @@ body {
   color: inherit;
 
   margin-top: 8px;
+  padding-left: 20px;
   border: 2px solid #d5d5d5;
   height: 48px;
 }
@@ -564,6 +566,7 @@ body {
 .feedback-form  select {
   width: 100%;
   margin-bottom: 7px;
+  padding-left: 11px;
 }
 
 .feedback-form textarea{
@@ -573,6 +576,7 @@ body {
   
   padding: 0;
   padding-top: 25px;
+  padding-left: 20px;
   margin-top: 15px;  
 }
 
@@ -580,6 +584,7 @@ body {
   box-sizing: border-box;
   width: 170px;
   height: 50px;
+  margin-top: 45px;
   border: none;
   
   font-size: inherit;
