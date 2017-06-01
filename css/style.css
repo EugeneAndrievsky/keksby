@@ -593,7 +593,7 @@ body {
 
 .page-footer {
   padding-top: 45px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .footer-top {
@@ -625,6 +625,7 @@ body {
 .footer-menu h3 {
   margin: 0;
   margin-bottom: 5px;
+  
   font-weight: bold;
   font-size: 24px;
   font-family: "Georgia", serif;
@@ -662,17 +663,36 @@ body {
 
 .footer-social {
   float: left;
-  width: 490px;
+  width: 510px;
 }
 
 .footer-social b {
+  margin-right: 40px;
   font-size: 24px;
   font-family: "Georgia", serif;
   color: #a38b70;
 }
 
 .social-btn {
-  color: #ffffff;
+  position: relative;
+  top: -24px;
+  display: inline-block;
+    
+  width: 60px;
+  height: 60px;
+  
+  margin-right: 10px;  
+  font-size: 0;
+}
+
+.social-btn-vk {
+  
+}
+.social-btn-fb {
+  
+}
+.social-btn-in {
+  
 }
 
 .footer-copyright {
