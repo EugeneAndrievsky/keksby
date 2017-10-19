@@ -88,14 +88,14 @@ body {
   padding: 13px 0;
   border: 2px solid white;
   border-radius: 2px;
-    
+
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
 }
 
 .btn-ghost {
-  color: #fff;  
+  color: #fff;
 }
 
 .btn-ghost:hover{
@@ -108,23 +108,23 @@ body {
 }
 
 .btn-brown-ghost {
-  color: #a38b70;  
+  color: #a38b70;
   border: 2px #a38b70 solid;
 }
 
 .btn-brown-ghost:hover{
   color: rgba(141, 116, 90, 1);
   background-color: white;
-  
+
 }
 
 .btn-brown-ghost:active {
   color: rgba(141, 116, 90, 0.3);
-  
+
 }
 
 .btn-quick-order {
-  float: right;  
+  float: right;
 }
 
 .promo {
@@ -217,7 +217,7 @@ body {
 .section-title {
   display: inline-block;
   margin: 0;
-  
+
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
@@ -354,30 +354,30 @@ body {
 
 .catalog-item-description,
 .catalog-item-buttons {
-  display: flex;  
+  display: flex;
   margin: 0 auto;
-  width: 263px; 
-  
+  width: 263px;
+
 }
-.catalog-item-description {    
-  justify-content: space-between;  
+.catalog-item-description {
+  justify-content: space-between;
 }
 
-.catalog-item-buttons {  
-  margin-bottom: 15px;  
+.catalog-item-buttons {
+  margin-bottom: 15px;
 }
 
-.btn-info, .btn-buy {  
-  width: 100%;  
-  padding: 13px 0; 
+.btn-info, .btn-buy {
+  width: 100%;
+  padding: 13px 0;
   border-radius: 2px;
-  
+
   background-color: #a38b71;
   color: white;
-    
+
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;  
+  text-align: center;
 }
 
 .btn-info:hover, .btn-buy:hover {
@@ -403,7 +403,7 @@ body {
   margin-top: 10px;
 }
 
-.price-list {  
+.price-list {
   width: 100%;
   margin-top: 65px;
 
@@ -456,7 +456,7 @@ body {
   display: inline-block;
   vertical-align: top;
   float: right;
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 .feedback-form {
@@ -471,14 +471,14 @@ body {
 .feedback-form::before {
   content: "";
   position: absolute;
-  
+
   width: 340px;
   height: 530px;
-  
+
   top: 35px;
   right: 0px;
-  
-  border-radius: 5px;  
+
+  border-radius: 5px;
   background: url("../img/write.jpg") no-repeat center;
 }
 
@@ -497,7 +497,7 @@ body {
   width: 290px;
 }
 
-.feedback-form-group label {  
+.feedback-form-group label {
   padding-left: 20px;
   font-size: 12px;
   line-height: 1em;
@@ -540,7 +540,7 @@ body {
   display: none;
 }
 
-.checkbox-area {    
+.checkbox-area {
   padding-top: 20px;
   padding-bottom: 30px;
   margin-bottom: 27px;
@@ -556,15 +556,15 @@ body {
 .checkbox-indicator{
   content: "";
   position: absolute;
-  
+
   width: 26px;
-  height: 26px;  
-  
+  height: 26px;
+
   left: 18px;
   top: -4px;
-  
+
   border: 2px solid #d5d5d5;
-  border-radius: 2px;  
+  border-radius: 2px;
 }
 .checkbox-indicator:hover {
   border-color: #b3b3b3;
@@ -577,18 +577,18 @@ body {
 .feedback-form input[type="checkbox"]:checked + .checkbox-indicator::before {
   content: "";
   position: absolute;
-  
+
   left: 9px;
   top:  3px;
-  
+
   width: 6px;
   height: 14px;
-  
-  border: 2px solid #8d745a;  
+
+  border: 2px solid #8d745a;
   border-radius: 2px;
   border-top: none;
   border-left: none;
-  
+
   transform: rotate(45deg);
 }
 
@@ -602,11 +602,11 @@ body {
   box-sizing: border-box;
   width: 630px;
   min-height: 120px;
-  
+
   padding: 0;
   padding-top: 25px;
   padding-left: 20px;
-  margin-top: 15px;  
+  margin-top: 15px;
 }
 
 .feedback-form input[type="submit"]{
@@ -615,9 +615,9 @@ body {
   height: 50px;
   margin-top: 45px;
   border: none;
-  
+
   font-size: inherit;
-  line-height: inherit;  
+  line-height: inherit;
 }
 
 .page-footer {
@@ -654,7 +654,7 @@ body {
 .footer-menu h3 {
   margin: 0;
   margin-bottom: 5px;
-  
+
   font-weight: bold;
   font-size: 24px;
   font-family: "Georgia", serif;
@@ -747,9 +747,8 @@ body {
 }
 
 .footer-copyright .heart {
-  position: relative;
-  top: -5px;
   display: inline-block;
+  vertical-align: middle;
 
   width: 27px;
   height: 24px;
