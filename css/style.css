@@ -153,6 +153,7 @@ body {
 }
 
 .feature-item {
+  position: relative;
   float: left;
   width: 279px;
   padding-top: 90px;
@@ -168,16 +169,30 @@ body {
   border-left-color: transparent;
 }
 
-.feature-choice {
-  background: url("../img/feature-1.png") top center no-repeat;
+.feature-item::before {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 137px;
+
+    width: 65px;
+    height: 65px;
+
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
 }
 
-.feature-quality {
-  background: url("../img/feature-2.png") top center no-repeat;
+.feature-choice::before {
+    background-position: -5px -5px;
 }
 
-.feature-safety {
-  background: url("../img/feature-3.png") top center no-repeat;
+.feature-quality::before {
+    background-position: -5px -76px;
+}
+
+.feature-safety::before {
+    background-position: 1px -143px;
 }
 
 .feature-title {
@@ -250,6 +265,7 @@ body {
 }
 
 .reference-source a {
+  position: relative;
   color: #a38b70;
 }
 
@@ -259,6 +275,19 @@ body {
 
 .reference-source a:active {
   color: rgba(141, 116, 90, 0.3);
+}
+
+.reference-source a::after {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    right: -10px;
+
+    width: 8px;
+    height: 8px;
+
+    background: url("../img/sprite.png") -5px -210px no-repeat;
 }
 
 .reviews {
@@ -675,15 +704,17 @@ body {
 
 .social-btn {
   position: relative;
-  top: -24px;
   display: inline-block;
-    
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  top: -24px;
+
   width: 60px;
   height: 60px;
-  
-  margin-right: 10px;  
-  border: 1px solid rgba(255, 255, 255, 0.1);
+
   font-size: 0;
+  background: url("../img/sprite.png") no-repeat;
 }
 
 .social-btn:hover {
@@ -692,19 +723,19 @@ body {
 
 .social-btn:active {
   border-color: white;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
-.social-btn-vk{
-  background: url("../img/vk.png") no-repeat center;  
+.social-btn-vk {
+  background-position: 16px -238px;
 }
 
 .social-btn-fb {
-  background: url("../img/facebook.svg") no-repeat center;  
+  background-position: 19px -297px;
 }
 
 .social-btn-in {
-  background: url("../img/instagram.png") no-repeat center;
+  background-position: 13px -358px;
 }
 
 .footer-copyright {
@@ -719,12 +750,13 @@ body {
   position: relative;
   top: -5px;
   display: inline-block;
-  
+
   width: 27px;
   height: 24px;
-  
+
   font-size: 0;
-  background: url("../img/heart.png"); 
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -5px -419px;
 }
 
 .footer-copyright a {
