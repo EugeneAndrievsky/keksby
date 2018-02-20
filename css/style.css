@@ -500,6 +500,8 @@ body {
 }
 
 .feedback-form-group {
+  position: relative;
+
   padding-bottom: 10px;
 }
 
@@ -540,7 +542,7 @@ body {
 }
 
 .feedback-form #phone,
-#email {
+.feedback-form #email {
   width: 286px;
 }
 
@@ -620,6 +622,35 @@ body {
   width: 100%;
   margin-bottom: 7px;
   padding-left: 11px;
+  
+  appearance: none;
+}
+
+.feedback-form select:hover {
+  background-color: #f2f2f2;
+}
+
+.feedback-form select:active {
+  color: rgba(64, 64, 64, .3);
+
+  background-color: #eaeaea;
+}
+
+label[for="topic"]::after {
+  content: "";
+  position: absolute;
+  right: 22px;
+  top: 41px;
+
+  width: 15px;
+  height: 15px;
+
+  border: 2px solid #bebebe;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-radius: 2px;
+
+  transform: rotate(-45deg);
 }
 
 .feedback-form textarea {
