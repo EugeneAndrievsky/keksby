@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>The Great Keksby</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -52,7 +53,7 @@
         <a class="btn btn-brown-ghost btn-quick-order" href="#" title="Открыть справочник">Справочник</a>     
         <dl>
           <dt>
-            <h3 class="reference-title">Окрас кошек и котов</h3>
+            <b class="reference-title">Окрас кошек и котов</b>
             <i class="reference-source">источник: <a target="_blank" href="https://ru.wikipedia.org">wikipedia</a></i>
           </dt>
           <dd class="clearfix">
@@ -61,7 +62,7 @@
           </dd>
 
           <dt>
-            <h3 class="reference-title">Кошкин дом</h3>
+            <b class="reference-title">Кошкин дом</b>
             <i class="reference-source">источник: <a target="_blank" href="http://kotmur.spb.ru">kotmur.spb.ru</a></i>            
           </dt>
           <dd class="clearfix">
@@ -96,37 +97,47 @@
       <div class="container">
         <h2 class="section-title">Популярные товары</h2>
         <a class="btn btn-brown-ghost btn-quick-order" href="#" title="Посмотреть все товары">Каталог</a>
+        
         <div class="popular-items clearfix">
           <div class="catalog-item">
             <img src="img/glasses-1.jpg" alt="очки «Классика жанра»" width="306" height="206">
-            <div class="catalog-item-description">              
-              <h3>Очки «Классика жанра»</h3>
-              <b class="catalog-item-price">300 р.</b>
-            </div>
-            <div class="catalog-item-buttons">
-              <a href="#" class="btn-info">Описание</a>
-              <a href="#" class="btn-buy">Купить</a>     
+            <div class="catalog-item-description">
+              <div class="clearfix">
+                <h3 class="catalog-item-title">Очки «Классика жанра»</h3>
+                <b class="catalog-item-price">300 р.</b>
+              </div>
+              <div class="catalog-item-buttons">
+                <button class="btn-info" type="button">Описание</button>
+                <button class="btn-buy" type="button">Купить</button>
+              </div>
             </div>
           </div>
+          
           <div class="catalog-item">
-            <img src="img/glasses-2.jpg" alt="очки «Классика жанра»" width="306" height="206">
-            <div class="catalog-item-description">              
-              <h3>Очки «Жалюзи»</h3>
-              <b class="catalog-item-price">400 р.</b>
+            <img src="img/glasses-2.jpg" alt="очки «Жалюзи»" width="306" height="206">
+            <div class="catalog-item-description">
+              <div class="clearfix">
+                <h3 class="catalog-item-title">Очки «Жалюзи»</h3>
+                <b class="catalog-item-price">400 р.</b>
+              </div>
+              <div class="catalog-item-buttons">
+                <button class="btn-info" type="button">Описание</button>
+                <button class="btn-buy" type="button">Купить</button>
+              </div>
             </div>
-            <div class="catalog-item-buttons">
-              <a href="#" class="btn-info">Описание</a>
-              <a href="#" class="btn-buy">Купить</a>     
-            </div>
-          </div><div class="catalog-item">
-            <img src="img/glasses-3.jpg" alt="очки «Классика жанра»" width="306" height="206">
-            <div class="catalog-item-description">              
-              <h3>Очки «Базилио»</h3>
-              <b class="catalog-item-price">500 р.</b>
-            </div>
-            <div class="catalog-item-buttons">
-              <a href="#" class="btn-info">Описание</a>
-              <a href="#" class="btn-buy">Купить</a>     
+          </div>
+          
+          <div class="catalog-item">
+            <img src="img/glasses-3.jpg" alt="очки «Базилио»" width="306" height="206">
+            <div class="catalog-item-description">
+              <div class="clearfix">
+                <h3 class="catalog-item-title">Очки «Базилио»</h3>
+                <b class="catalog-item-price">500 р.</b>
+              </div>
+              <div class="catalog-item-buttons">
+                <button class="btn-info" type="button">Описание</button>
+                <button class="btn-buy" type="button">Купить</button>
+              </div>
             </div>
           </div>
         </div>
