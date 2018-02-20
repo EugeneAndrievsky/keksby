@@ -86,7 +86,8 @@ body {
 }
 
 .btn {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 170px;
   padding: 13px 0;
   border: 2px solid white;
@@ -386,7 +387,8 @@ body {
 
 .btn-info,
 .btn-buy {
-  flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   padding: 13px 0;
 
   color: white;
@@ -414,8 +416,12 @@ body {
 }
 
 .catalog-item-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 
@@ -428,7 +434,8 @@ body {
 }
 
 .price-list .price-number {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 50px;
   height: 50px;
 
@@ -615,7 +622,9 @@ body {
   border-top: none;
   border-left: none;
 
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+          transform: rotate(45deg);
 }
 
 .feedback-form select {
@@ -623,7 +632,11 @@ body {
   margin-bottom: 7px;
   padding-left: 11px;
   
-  appearance: none;
+  -webkit-appearance: none;
+  
+     -moz-appearance: none;
+  
+          appearance: none;
 }
 
 .feedback-form select:hover {
@@ -650,11 +663,14 @@ label[for="topic"]::after {
   border-right-color: transparent;
   border-radius: 2px;
 
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+          transform: rotate(-45deg);
 }
 
 .feedback-form textarea {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
   min-height: 120px;
 
@@ -665,7 +681,8 @@ label[for="topic"]::after {
 }
 
 .feedback-form input[type="submit"] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 170px;
   height: 50px;
   margin-top: 45px;
